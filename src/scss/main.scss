@@ -1,0 +1,51 @@
+@import "_normalize";
+@import "_variables";
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background:rgb(70, 3, 70);
+}
+
+.MainHeader {
+color: white;
+text-align: center;
+}
+
+.SectionHeader {
+  color: black;
+  background: white;
+  border-radius: 5px;
+  height: 200px;
+  width: 500px;
+}
+
+.editor {
+width: 500px;
+display:flex;
+justify-content: center;
+flex-direction: column;
+margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.load {
+  background: blue;
+}
+
+.save {
+  background: green;
+}
+
+
