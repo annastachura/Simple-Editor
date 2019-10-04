@@ -352,7 +352,14 @@ body {
           justify-content: flex-end; }
 
 .load {
-  background: blue; }
+  background: blue;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  will-change: background; }
+
+.load:hover {
+  background: grey; }
 
 .save {
   background: green; }
